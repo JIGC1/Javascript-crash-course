@@ -60,13 +60,13 @@ return: "Hello JIGC"
 
 */
 
-function greeting() {
-    var name = prompt('What is your name?');
-    var result = 'hello' + ' ' + name; // string concatenation
+function greeting(yourName) {
+    var result = 'hello' + ' ' + yourName; // string concatenation
     console.log(result);
 }
 
-// greeting();
+// var name = prompt('What is your name?');
+// greeting(name);
 
 // how do arguments work in functions?
 // how do we add 2 numbers together in a function
@@ -77,4 +77,21 @@ function sumNumbers(num2, num3) {
 }
 
 sumNumbers(10, 10);
+
+/* while loops
+
+var num = 0;
+
+while (num <100) {
+    num += 1;
+    console.log(num);
+}
+
+*/ 
+
+// for loops
+
+for (let num4 = 0; num4 = 100; num4++);
+    console.log(num4);
+
 
