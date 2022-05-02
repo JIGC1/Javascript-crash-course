@@ -91,7 +91,43 @@ while (num <100) {
 
 // for loops
 
-for (let num4 = 0; num4 = 100; num4++);
-    console.log(num4);
+for (let num5 = 0; num5 <= 100; num5++){
+    console.log(num5);
+}
+
+/* data types
+
+let = yourAge = 29; // number
+let = yourName = JIGC; // string
+let name = {first: 'jane', last: 'doe'}; // object
+let truth = false; //boolean
+let groceries = ['apple', 'banana', 'oranges']; // array
+let random; // undefined
+let nothing = null; // null
+*/
+
+
+// strings in javascript (common methods)
+let fruit = 'banana';
+let moreFruits = 'banana \napple'; // new line \n
+console.log(moreFruits);
+
+console.log(fruit.length);
+console.log(fruit.indexOf('q'));
+console.log(fruit.slice(1, 3));
+console.log(fruit.replace('ban', '123'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt('2'));
+console.log(fruit[2]);
+console.log(fruit.split(',')); // split by a comma
+console.log(fruit.split('')); // split by a character
+
+// Array
+
+let vegetables = ['corn', 'pepper', 'zucchini'];
+// let vegetables = new Array ('corn', 'pepper', 'zucchini');
+
+alert(vegetables[1]);
 
 
