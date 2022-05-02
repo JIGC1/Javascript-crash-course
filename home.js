@@ -128,6 +128,20 @@ console.log(fruit.split('')); // split by a character
 let vegetables = ['corn', 'pepper', 'zucchini'];
 // let vegetables = new Array ('corn', 'pepper', 'zucchini');
 
-alert(vegetables[1]);
+console.log(vegetables[1]); // access value at index 2nd. starts at 0
 
+vegetables[0] = 'tomato' // replaces value at 0
+console.log(vegetables);
 
+for (let i = 0; i < vegetables.length; i++) {
+    console.log(vegetables[i]);
+}
+
+// array common methods
+console.log('to string', vegetables.toString());
+console.log(vegetables.join(' * '));
+console.log(vegetables, vegetables.pop(), vegetables); // removes last item
+console.log(vegetables, vegetables.push('corn'), vegetables); // appends
+console.log(vegetables[3]);
+vegetables[3] = 'zucchini'; // appends
+console.log(vegetables);
