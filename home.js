@@ -143,5 +143,22 @@ console.log(vegetables.join(' * '));
 console.log(vegetables, vegetables.pop(), vegetables); // removes last item
 console.log(vegetables, vegetables.push('corn'), vegetables); // appends
 console.log(vegetables[3]);
-vegetables[3] = 'zucchini'; // appends
+vegetables[3] = 'zucchini'; // same as push
 console.log(vegetables);
+vegetables.shift(); // remove first element from an array
+console.log(vegetables);
+vegetables.unshift('tomato'); // add first element to an array
+console.log(vegetables);
+
+let fruits = ['blackberries', 'orange', 'banana', 'pear'];
+let allGroceries = fruits.concat(vegetables); // combine arrays
+console.log(allGroceries);
+console.log(allGroceries.slice (1, 4));
+console.log(allGroceries.reverse());
+console.log(allGroceries.sort());
+
+
+
+let someNumbers = [5, 10, 355, 20, 877, 2408, 1, 55];
+console.log(someNumbers.sort(function (a, b) {return a-b})); // sort ascending order
+console.log(someNumbers.sort(function (a, b) {return b-a})); // sort descending order
